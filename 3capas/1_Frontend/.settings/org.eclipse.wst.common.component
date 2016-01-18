@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="1_Frontend">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="3_Common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/3_Common/3_Common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="2_Backend.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/2_Backend/2_Backend">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="1_Frontend"/>
+        <property name="java-output-path" value="/1_Frontend/build/classes"/>
+    </wb-module>
+</project-modules>
